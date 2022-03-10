@@ -49,7 +49,29 @@
              </thead>
           </table>
 
-        <div id="headergrLogo"> <p><b> Space reserved for Implementation of wiki scraper microservice for gym history. Or something to be determined. </b></p></div>
+        <div id="headergrLogo"> <p><b>   
+          <div id="headergrLogo"> <p><b> Implementation of team members microservice: </b></p>
+          </div>
+
+          <div id="headerTEXTSTUFF2"></div><div id="headerTEXTSTUFF2"> <p><b> Exercise Your Fingers By Changing the link below:  </b></p></div>
+          <div id="headerTEXTSTUFF2"></div><div id="headerTEXTSTUFF2"> <p><b>           Then Click It!  </b></p></div>
+
+          
+                        <form>
+                         <fieldset>
+
+                             <a id="reflectedlink" href="https://cs361-wiki-app.herokuapp.com/?">https://cs361-wiki-app.herokuapp.com/?</a>
+                             <input id="searchterm" />
+
+                             <script type="text/javascript">var link = document.getElementById('reflectedlink');
+                                 var input = document.getElementById('searchterm');
+                                 input.onchange = input.onkeyup = function () {
+                                     link.search = 'search=' + encodeURIComponent(input.value);
+                                     link.firstChild.data = link.href;
+                                 };</script>
+                             <input type="submit" id="querySubmit" value="clear">
+                         </fieldset>
+                     </form>
 
 
 
@@ -68,14 +90,6 @@
                              </tr>
                       </thead>
               </table>
-
-
-
-
-
-             
-   
-           
              </form>
          </fieldset>
        </form>
@@ -84,7 +98,7 @@
   </div>
  
  </body>
-</html>
+</html> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="main.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
